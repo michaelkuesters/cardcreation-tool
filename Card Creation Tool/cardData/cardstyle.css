@@ -1,0 +1,92 @@
+   .MenuBox
+  {
+    width:100%;
+    margin: 0 auto;
+    margin-top:0px;
+    width:100px;
+    height:100px;
+    border:1px solid black;
+  }
+   .ServiceBox
+  {
+    width:100%;
+    margin: 0 auto;
+    margin-top:0px;
+    width:550px;
+    height:880px;
+    border:0px solid black;
+  }
+   #Shim1
+  {
+    width:100%;
+    margin: 0 auto;
+    margin-top:0px;
+    height:44px;
+  }
+   #Shim2
+  {
+    width:100%;
+    margin: 0 auto;
+    margin-top:0px;
+    height:20px;
+  }
+
+
+    .serviceBoxSub {
+    float:left;
+    width: 100%;
+    height: 100%;
+    position:relative;
+    Background-color: #000000;
+    border: 0px solid #bdbdbd;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    -moz-box-shadow: 0 0 00px #777700;
+    -webkit-box-shadow: 0 0 00px #777700;
+    box-shadow: 0 0 00px #777700;
+    }
+
+    .standard-text{
+        height:7%; font-size: 20px; font-family:"Marlett";
+    }
+
+    .coveredImage{ 
+    position:absolute;
+    width:100%; height:100%; 
+    top:0px; left:0px;
+    }
+
+    #face {
+        width: 200px;
+        height: 100px;
+        background: red;
+        -moz-border-radius: 100px / 50px;
+        -webkit-border-radius: 100px / 50px;
+        border-radius: 100px / 200px;
+    }
+
+
+    .artworkImage{ position:absolute; top:15%; left:10%; width:80%; height:48%; border-radius: 100px / 150px;}
+    .artworkBuildingImage{ position:absolute; top:11%; left:14%; width:73%; height:57%; border-radius: 470px / 470px; background:#a0c0ff;}
+    .artworkFaceImage{ position:absolute; top:12%; left:21%; width:63%; height:56%; border-radius: 200px / 320px;}
+    .artworkTreasureImage{ position:absolute; top:10.6%; left:7.2%; width:86%; height:56%; border-top-left-radius: 235px; border-bottom-right-radius: 230px;}
+    .topTitle{ position:absolute; top:0.5%; left:0.8%; width:98.4%; height:8.2%;  font-size: 40px; font-family:"Marlett"}
+    .subTitle{ position:absolute; bottom:3%; left:4%; width:91%; height:42%;}
+    .Cardname{ position:absolute; top: 3.2%; left:15%; width:60%; height:30px; font-size: 40px; font-family:"Marlett"; }
+    .Gold{ position:absolute; top:10%; left:4.5%; height:5% }
+    .Difficulty-icon{ position:absolute; top:3%; right:6%; width:9%; height:5%}
+    .Difficulty{ position:absolute; top:3%; right:15%; height:2%; color:#201010; font-size: 40px; font-family:"Marlett"; }
+    .inlinetext-icon{width:24px; height:24px}
+    .inlinetext-icon-large{width:40px; height:40px}
+    .Typ-icon{ position:absolute; top:4%; left:7%; height:32px; font-size:32px; }
+    .Rarity-icon{ position:absolute; top:3%; left:4.5%; width:9%; height:5%}
+    .Strength-icon{ position:absolute; bottom:29%; right:9%; width:70px; height:70px}
+    .Strength{ position:absolute; bottom:34%; right:12%; width:30px; height:20px; font-weight: bold; font-size: 54px; font-family:"Times New Roman"; }
+    .Cardtext{ position:absolute; bottom: 7%; left:10%; width:80%; height:17%; font-size: 30px; font-family:"Marlett"; }
+    .artistTitle{ position:absolute; bottom:15px; left:36px; color:#204010; font-weight: bold; font-size: 22px; font-family:"Marlett"; }
+
+    .coveringCanvas{ 
+    width:100%; height:60%; 
+    position:absolute;
+    top:1px; left:1px;
+	}

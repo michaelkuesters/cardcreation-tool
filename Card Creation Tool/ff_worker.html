@@ -1,0 +1,28 @@
+	<html>
+	  <head>
+	    <link rel="stylesheet" type="text/css" href="cardData/cardstyle.css">
+	    <script type="text/javascript" src="js_resources/jquery-1.12.0.min.js"></script>
+	    <script type="text/javascript" src="cardData/cards.js">    </script>
+	    <script type="text/javascript" src="cardData/cardmaker.js">    </script>
+		<script type="text/javascript" src="cardData/cardframe_renderer.js">    </script>
+		<script type="text/javascript" src="js_resources/canvas2image.js">    </script>
+		<script type="text/javascript" src="js_resources/html2canvas.js"></script>
+	  </head>
+	  <body style="background-color: #000000">
+	     <div id="Navigation">The DOML Renderer
+ 	      <button id="pageid" onclick='nextPage()'>Next</button>
+		  <!--input type="button" id="btnSave" value="Save Image"/-->
+		</div>
+		<div id="Shim1"></div>
+		<div>
+	     <!--canvas id="mainCanvas" class="serviceBox"></canvas-->
+	     <div id="Master" >Image Master</div>
+	     <br></br>
+	    </div> 
+	    <div id="Shim2"></div>
+		<script>
+			resize(1);	    
+			nextPage();
+		</script>
+	  </body>
+	</html>
